@@ -6,7 +6,8 @@ All steps you have to do in order to create a running vm with docker engine and 
 
 ```
 git clone https://github.com/alfredoreduarte/vagrant_docker.git 
-cd vagrant_docker
+mv vagrant_docker installthisapp
+cd installthisapp
 vagrant up
 vagrant ssh
 docker run hello-world
